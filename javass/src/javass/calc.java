@@ -46,7 +46,10 @@ public calc() {
 			
 			
 		}
-		else System.out.println("error");
+		else {
+			System.out.println("!!!!error!!!!");
+			System.out.println("wrong input");
+		}
 		
 		
 		
