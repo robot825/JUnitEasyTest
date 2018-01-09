@@ -7,6 +7,9 @@ public calc() {
 		
 	}
 	
+	public static int add(int n1, int n2) {
+		return n1+n2;
+	}
 	
 	
 	
@@ -38,6 +41,10 @@ public calc() {
 		if (a == 4) {
 			System.out.println("system end");
 			System.exit(0);
+		}
+		if (a == 1) {
+			result = add(num1,num2);
+			System.out.println("result: "+result);		
 		}
 		
 		else if(a == 1 || a ==2 || a==3) {
