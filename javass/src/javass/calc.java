@@ -15,6 +15,10 @@ public calc() {
 		return n1-n2;
 	}
 	
+	public static int mul(int n1,int n2) {
+		return n1*n2;
+	}
+	
 	
 	void print_menu() {
 		System.out.println("[ ID: 1772424 ]");
