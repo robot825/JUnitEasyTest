@@ -55,6 +55,11 @@ public calc() {
 				System.out.println("result: "+result);		
 			}	
 			
+			if (a == 2) {
+				result = sub(num1,num2);
+				System.out.println("result: "+result);		
+			}	
+			
 		}
 		else {
 			System.out.println("!!!!error!!!!");
