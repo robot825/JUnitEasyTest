@@ -11,6 +11,9 @@ public calc() {
 		return n1+n2;
 	}
 	
+	public static int sub(int n1,int n2) {
+		return n1-n2;
+	}
 	
 	
 	void print_menu() {
@@ -49,6 +52,11 @@ public calc() {
 			
 			if (a == 1) {
 				result = add(num1,num2);
+				System.out.println("result: "+result);		
+			}	
+			
+			if (a == 2) {
+				result = sub(num1,num2);
 				System.out.println("result: "+result);		
 			}	
 			
