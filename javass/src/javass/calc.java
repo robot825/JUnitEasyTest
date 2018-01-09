@@ -21,13 +21,18 @@ public calc() {
 	
 	
 	void print_menu() {
+		System.out.println("===========================");
 		System.out.println("[ ID: 1772424 ]");
 		System.out.println("[ NAME: JunYeong Kim ]");
-		System.out.println("=======MENU=======");
+		System.out.println("===========================");
+		System.out.println("=========== MENU ==========");
+		System.out.println("===========================");
 		System.out.println("1. Add two numbers");
 		System.out.println("2. Subtract two numbers");
 		System.out.println("3.Multiply two numbers");
 		System.out.println("4. Quit");			
+		System.out.println("===========================");
+		System.out.println("===========================");
 	}
 	
 	int getNum() {
