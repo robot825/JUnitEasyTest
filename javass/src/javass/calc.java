@@ -15,6 +15,10 @@ public calc() {
 		return n1-n2;
 	}
 	
+	public static int mul(int n1,int n2) {
+		return n1*n2;
+	}
+	
 	
 	void print_menu() {
 		System.out.println("[ ID: 1772424 ]");
@@ -60,7 +64,11 @@ public calc() {
 			
 			else if (a == 2) {
 				result = sub(num1,num2);		
-			}	
+			}
+			
+			else {
+				result = mul(num1,num2);
+			}
 			System.out.println("result: "+result);	
 			
 		}
