@@ -42,7 +42,10 @@ public calc() {
 			System.out.println("system end");
 			System.exit(0);
 		}
-		
+		if (a == 1) {
+			result = add(num1,num2);
+			System.out.println("result: "+result);		
+		}
 		
 		else if(a == 1 || a ==2 || a==3) {
 			num1 = a1.getNum();
