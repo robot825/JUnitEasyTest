@@ -42,7 +42,11 @@ public calc() {
 		a1.print_menu();
 		int a = a1.getNum();
 		if (a == 4) {
-			System.out.println("system end");
+			System.out.println("===========================");
+			System.out.println("===========================");
+			System.out.println("======== system end =======");
+			System.out.println("===========================");
+			System.out.println("===========================");
 			System.exit(0);
 		}
 		
