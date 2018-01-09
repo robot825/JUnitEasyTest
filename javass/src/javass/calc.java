@@ -60,7 +60,11 @@ public calc() {
 			
 			else if (a == 2) {
 				result = sub(num1,num2);		
-			}	
+			}
+			
+			else {
+				result = mul(num1,num2);
+			}
 			System.out.println("result: "+result);	
 			
 		}
