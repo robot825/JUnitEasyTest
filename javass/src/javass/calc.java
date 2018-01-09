@@ -44,6 +44,7 @@ public calc() {
 			num1 = a1.getNum();
 			num2 = a1.getNum();		
 			
+			
 		}
 		else System.out.println("error");
 		
