@@ -51,14 +51,13 @@ public calc() {
 			num2 = a1.getNum();		
 			
 			if (a == 1) {
-				result = add(num1,num2);
-				System.out.println("result: "+result);		
+				result = add(num1,num2);	
 			}	
 			
-			if (a == 2) {
-				result = sub(num1,num2);
-				System.out.println("result: "+result);		
+			else if (a == 2) {
+				result = sub(num1,num2);		
 			}	
+			System.out.println("result: "+result);	
 			
 		}
 		else {
